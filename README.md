@@ -2,9 +2,11 @@
 
 <img src="https://raw.githubusercontent.com/BeauNouvelle/FaceAware/master/Images/avatarExample.png" width=50%>
 
-Sometimes the aspect ratios of images we need to work with don't quite fit within the confines of our UIImageViews.
+Updated version of now read only library [FaceAware](https://github.com/BeauNouvelle/FaceAware). 
 
-In most cases we can use AspectFill to fit the image to the bounds of a UIImageView without stretching or leaving whitespace, however when it comes to photos of people, it's quite often to have the faces cropped out if they're not perfectly centered.
+Sometimes the aspect ratios of images we need to work with don't quite fit within the confines of our UIImageViews / NSImageViews.
+
+In most cases we can use AspectFill to fit the image to the bounds of a UIImageView / NSImageView without stretching or leaving whitespace, however when it comes to photos of people, it's quite often to have the faces cropped out if they're not perfectly centered.
 
 This is where FaceAware comes in.
 It will analyse an image either through `UIImageView`'s `image` property, or one you set using one of the built in functions and focus in on any faces it can find within.
@@ -17,32 +19,33 @@ With FaceAware your users will no longer have to crop and adjust their profile p
 
 Based on these two older projects:
 
+* [FaceAware](https://github.com/BeauNouvelle/FaceAware)
 * [BetterFace-Swift](https://github.com/croath/UIImageView-BetterFace-Swift)
 * [FaceAwareFill](https://github.com/Julioacarrettoni/UIImageView_FaceAwareFill)
 
 Both of which don't seem to be maintained anymore.
 
 ## Requirements ##
-* Swift 5.1
-* iOS 8.0+
-* Xcode 11
+* Swift 5.0
+* iOS 8
+* macOS 10.10
+* Xcode 13
 
 ## Installation ##
 #### Manual ####
-Simply drag `UIImageView+FaceAware.swift` into your project. 
+Simply drag `ImageView+FaceAware.swift` into your project. 
 
-#### Carthage ####
-- Add `github "BeauNouvelle/FaceAware"` to your `Cartfile`
-
-More information on installing and setting up Carthage can be found here:
-https://github.com/Carthage/Carthage
-
-#### Cocoapods ####
-- Add `pod 'FaceAware'` to your pod file.
-- Add `import FaceAware` to the top of your files where you wish to use it.
-
-## Usage ##
+## Useage ##
 There are a few ways to get your image views focussing in on faces within images.
+
+You can also recieve a callback for when face detection and any image adjustments have been completed by passing in a closure to the `didFocusOnFaces` property.
+
+```swift
+someImageView.didFocusOnFaces = {
+     print("Did finish focussing")
+}
+```
+
 
 #### Interface Builder ####
 This is the easiest method and doesn't require writing any code.
@@ -88,8 +91,11 @@ You can also set this flag within interface builder.
 
 
 ## More help? Questions? ##
-Reach out to me on Twitter [@beaunouvelle](https://twitter.com/BeauNouvelle)
+This is an updated version of [FaceAware](https://github.com/BeauNouvelle/FaceAware) updated the library to support Swift 5 and also added support for `macOS`.
+
+Reach out to me on Twitter [@IbrahimH_ss_n](https://twitter.com/IbrahimH_ss_n)
 Also, if you're using this in your project and you like it, please let me know so I can continue working on it!
 
 ## Future Plans ##
-- [ ] Add an option to only focus on largest/closest face in photo.
+- [ ] Add support for SPM.
+- [ ] Add support for `ImageView` in SwiftUI.

@@ -12,23 +12,15 @@
 		7DCFCEF11D8D5B9D00FE3229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCFCEEF1D8D5B9D00FE3229 /* Main.storyboard */; };
 		7DCFCEF31D8D5B9D00FE3229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCFCEF21D8D5B9D00FE3229 /* Assets.xcassets */; };
 		7DCFCEF61D8D5B9D00FE3229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCFCEF41D8D5B9D00FE3229 /* LaunchScreen.storyboard */; };
-		8B477CF8215850E4000DEBD7 /* Attachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B477CF621585087000DEBD7 /* Attachable.swift */; };
-		8B7879CD20BE57B700490FAA /* UIImageView+FaceAware.swift in Headers */ = {isa = PBXBuildFile; fileRef = 7D0D35631D8D72CF00632729 /* UIImageView+FaceAware.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B9DECFB20BE4E82000CB1F0 /* FaceAware.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9DECF920BE4E82000CB1F0 /* FaceAware.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B9DECFE20BE4E82000CB1F0 /* FaceAware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9DECF720BE4E82000CB1F0 /* FaceAware.framework */; };
-		8B9DED0020BE4E82000CB1F0 /* FaceAware.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9DECF720BE4E82000CB1F0 /* FaceAware.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8B9DED0420BE4E8D000CB1F0 /* UIImageView+FaceAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0D35631D8D72CF00632729 /* UIImageView+FaceAware.swift */; };
+		ED16762E27F1B45C0061A882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16762D27F1B45C0061A882 /* AppDelegate.swift */; };
+		ED16763027F1B45C0061A882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16762F27F1B45C0061A882 /* ViewController.swift */; };
+		ED16763227F1B45D0061A882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED16763127F1B45D0061A882 /* Assets.xcassets */; };
+		ED16763527F1B45D0061A882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED16763327F1B45D0061A882 /* Main.storyboard */; };
+		ED16763A27F1B5B50061A882 /* ImageView+FaceAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3820F27F1ABF6006270EA /* ImageView+FaceAware.swift */; };
+		ED16763B27F1B5BD0061A882 /* Attachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B477CF621585087000DEBD7 /* Attachable.swift */; };
+		EDD3824327F1B28A006270EA /* Attachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B477CF621585087000DEBD7 /* Attachable.swift */; };
+		EDD3824527F1B28E006270EA /* ImageView+FaceAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3820F27F1ABF6006270EA /* ImageView+FaceAware.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8B9DECFC20BE4E82000CB1F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7DCFCEE01D8D5B9D00FE3229 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B9DECF620BE4E82000CB1F0;
-			remoteInfo = FaceAware;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8B9DECFF20BE4E82000CB1F0 /* Embed Frameworks */ = {
@@ -37,7 +29,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8B9DED0020BE4E82000CB1F0 /* FaceAware.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,7 +36,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7D0D35631D8D72CF00632729 /* UIImageView+FaceAware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+FaceAware.swift"; sourceTree = "<group>"; };
 		7DCFCEE81D8D5B9D00FE3229 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCFCEEB1D8D5B9D00FE3229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DCFCEED1D8D5B9D00FE3229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +44,13 @@
 		7DCFCEF51D8D5B9D00FE3229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DCFCEF71D8D5B9D00FE3229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B477CF621585087000DEBD7 /* Attachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachable.swift; sourceTree = "<group>"; };
-		8B9DECF720BE4E82000CB1F0 /* FaceAware.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FaceAware.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B9DECF920BE4E82000CB1F0 /* FaceAware.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceAware.h; sourceTree = "<group>"; };
-		8B9DECFA20BE4E82000CB1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED16762B27F1B45C0061A882 /* ExampleMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED16762D27F1B45C0061A882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED16762F27F1B45C0061A882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED16763127F1B45D0061A882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED16763427F1B45D0061A882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED16763627F1B45D0061A882 /* ExampleMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExampleMacOS.entitlements; sourceTree = "<group>"; };
+		EDD3820F27F1ABF6006270EA /* ImageView+FaceAware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+FaceAware.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B9DECFE20BE4E82000CB1F0 /* FaceAware.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B9DECF320BE4E82000CB1F0 /* Frameworks */ = {
+		ED16762827F1B45C0061A882 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,18 +74,19 @@
 		7D0D35621D8D72CF00632729 /* FaceAware */ = {
 			isa = PBXGroup;
 			children = (
-				7D0D35631D8D72CF00632729 /* UIImageView+FaceAware.swift */,
 				8B477CF621585087000DEBD7 /* Attachable.swift */,
+				EDD3820F27F1ABF6006270EA /* ImageView+FaceAware.swift */,
 			);
 			name = FaceAware;
-			path = ../../FaceAware;
+			path = ../FaceAware;
 			sourceTree = "<group>";
 		};
 		7DCFCEDF1D8D5B9D00FE3229 = {
 			isa = PBXGroup;
 			children = (
+				7D0D35621D8D72CF00632729 /* FaceAware */,
 				7DCFCEEA1D8D5B9D00FE3229 /* Example */,
-				8B9DECF820BE4E82000CB1F0 /* FaceAware */,
+				ED16762C27F1B45C0061A882 /* ExampleMacOS */,
 				7DCFCEE91D8D5B9D00FE3229 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				7DCFCEE81D8D5B9D00FE3229 /* Example.app */,
-				8B9DECF720BE4E82000CB1F0 /* FaceAware.framework */,
+				ED16762B27F1B45C0061A882 /* ExampleMacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +103,6 @@
 		7DCFCEEA1D8D5B9D00FE3229 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				7D0D35621D8D72CF00632729 /* FaceAware */,
 				7DCFCEEB1D8D5B9D00FE3229 /* AppDelegate.swift */,
 				7DCFCEED1D8D5B9D00FE3229 /* ViewController.swift */,
 				7DCFCEEF1D8D5B9D00FE3229 /* Main.storyboard */,
@@ -120,28 +113,19 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		8B9DECF820BE4E82000CB1F0 /* FaceAware */ = {
+		ED16762C27F1B45C0061A882 /* ExampleMacOS */ = {
 			isa = PBXGroup;
 			children = (
-				8B9DECF920BE4E82000CB1F0 /* FaceAware.h */,
-				8B9DECFA20BE4E82000CB1F0 /* Info.plist */,
+				ED16762D27F1B45C0061A882 /* AppDelegate.swift */,
+				ED16762F27F1B45C0061A882 /* ViewController.swift */,
+				ED16763127F1B45D0061A882 /* Assets.xcassets */,
+				ED16763327F1B45D0061A882 /* Main.storyboard */,
+				ED16763627F1B45D0061A882 /* ExampleMacOS.entitlements */,
 			);
-			path = FaceAware;
+			path = ExampleMacOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		8B9DECF420BE4E82000CB1F0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B9DECFB20BE4E82000CB1F0 /* FaceAware.h in Headers */,
-				8B7879CD20BE57B700490FAA /* UIImageView+FaceAware.swift in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		7DCFCEE71D8D5B9D00FE3229 /* Example */ = {
@@ -156,30 +140,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				8B9DECFD20BE4E82000CB1F0 /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
 			productReference = 7DCFCEE81D8D5B9D00FE3229 /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8B9DECF620BE4E82000CB1F0 /* FaceAware */ = {
+		ED16762A27F1B45C0061A882 /* ExampleMacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B9DED0320BE4E82000CB1F0 /* Build configuration list for PBXNativeTarget "FaceAware" */;
+			buildConfigurationList = ED16763727F1B45D0061A882 /* Build configuration list for PBXNativeTarget "ExampleMacOS" */;
 			buildPhases = (
-				8B9DECF220BE4E82000CB1F0 /* Sources */,
-				8B9DECF320BE4E82000CB1F0 /* Frameworks */,
-				8B9DECF420BE4E82000CB1F0 /* Headers */,
-				8B9DECF520BE4E82000CB1F0 /* Resources */,
+				ED16762727F1B45C0061A882 /* Sources */,
+				ED16762827F1B45C0061A882 /* Frameworks */,
+				ED16762927F1B45C0061A882 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FaceAware;
-			productName = FaceAware;
-			productReference = 8B9DECF720BE4E82000CB1F0 /* FaceAware.framework */;
-			productType = "com.apple.product-type.framework";
+			name = ExampleMacOS;
+			productName = ExampleMacOS;
+			productReference = ED16762B27F1B45C0061A882 /* ExampleMacOS.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -187,7 +169,7 @@
 		7DCFCEE01D8D5B9D00FE3229 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Pear Pi";
 				TargetAttributes = {
@@ -196,9 +178,9 @@
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
-					8B9DECF620BE4E82000CB1F0 = {
-						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 1020;
+					ED16762A27F1B45C0061A882 = {
+						CreatedOnToolsVersion = 13.3;
+						DevelopmentTeam = RP4PNYFADM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -217,7 +199,7 @@
 			projectRoot = "";
 			targets = (
 				7DCFCEE71D8D5B9D00FE3229 /* Example */,
-				8B9DECF620BE4E82000CB1F0 /* FaceAware */,
+				ED16762A27F1B45C0061A882 /* ExampleMacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -233,10 +215,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B9DECF520BE4E82000CB1F0 /* Resources */ = {
+		ED16762927F1B45C0061A882 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED16763227F1B45D0061A882 /* Assets.xcassets in Resources */,
+				ED16763527F1B45D0061A882 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,29 +231,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD3824527F1B28E006270EA /* ImageView+FaceAware.swift in Sources */,
 				7DCFCEEE1D8D5B9D00FE3229 /* ViewController.swift in Sources */,
+				EDD3824327F1B28A006270EA /* Attachable.swift in Sources */,
 				7DCFCEEC1D8D5B9D00FE3229 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B9DECF220BE4E82000CB1F0 /* Sources */ = {
+		ED16762727F1B45C0061A882 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B477CF8215850E4000DEBD7 /* Attachable.swift in Sources */,
-				8B9DED0420BE4E8D000CB1F0 /* UIImageView+FaceAware.swift in Sources */,
+				ED16763B27F1B5BD0061A882 /* Attachable.swift in Sources */,
+				ED16763027F1B45C0061A882 /* ViewController.swift in Sources */,
+				ED16763A27F1B5B50061A882 /* ImageView+FaceAware.swift in Sources */,
+				ED16762E27F1B45C0061A882 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8B9DECFD20BE4E82000CB1F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8B9DECF620BE4E82000CB1F0 /* FaceAware */;
-			targetProxy = 8B9DECFC20BE4E82000CB1F0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7DCFCEEF1D8D5B9D00FE3229 /* Main.storyboard */ = {
@@ -286,6 +266,14 @@
 				7DCFCEF51D8D5B9D00FE3229 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED16763327F1B45D0061A882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED16763427F1B45D0061A882 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -438,65 +426,70 @@
 			};
 			name = Release;
 		};
-		8B9DED0120BE4E82000CB1F0 /* Debug */ = {
+		ED16763827F1B45D0061A882 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_ENTITLEMENTS = ExampleMacOS/ExampleMacOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEVELOPMENT_TEAM = RP4PNYFADM;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = FaceAware/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 2.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = beaunouvelle.faceaware;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Pear Pi. All rights reserved.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = faceAwareMac.ExampleMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8B9DED0220BE4E82000CB1F0 /* Release */ = {
+		ED16763927F1B45D0061A882 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_ENTITLEMENTS = ExampleMacOS/ExampleMacOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEVELOPMENT_TEAM = RP4PNYFADM;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = FaceAware/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 2.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = beaunouvelle.faceaware;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Pear Pi. All rights reserved.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = faceAwareMac.ExampleMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -521,11 +514,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B9DED0320BE4E82000CB1F0 /* Build configuration list for PBXNativeTarget "FaceAware" */ = {
+		ED16763727F1B45D0061A882 /* Build configuration list for PBXNativeTarget "ExampleMacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B9DED0120BE4E82000CB1F0 /* Debug */,
-				8B9DED0220BE4E82000CB1F0 /* Release */,
+				ED16763827F1B45D0061A882 /* Debug */,
+				ED16763927F1B45D0061A882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
